@@ -11,12 +11,12 @@ else
     Console.WriteLine($"[\"{String.Join("\", \"", array1)}\"] --> [\"Нет подходящих элементов!\"] ");
 }
 //**************Ввод размера массива*************
-int inputSizeArray(string massage, string error)
+int inputSizeArray(string message, string error)
 {
     int num = 0;
     try
     {
-        Console.Write(massage);
+        Console.Write(message);
         num = int.Parse(Console.ReadLine() ?? "");
     }
     catch (Exception ex)
