@@ -4,7 +4,7 @@
 
 [Вспомогательная информация](https://metanit.com/sharp/tutorial/)
 
-[Файл с программой](https://metanit.com/sharp/tutorial/)
+[Файл с программой](https://github.com/kaspr88/Block-results/blob/main/FP1ST/Program.cs)
 
 **`Задача:`** Написать программу, которая из имеющегося массива строк формирует массив из строк, длинна которых меньше либо рвана 3 символа. Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. при решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
@@ -98,3 +98,22 @@ string[] resultingArray(int size, string[] array)
     return arr;
 }
 ```
+
+- **Ну и собственно вызов методов и исполнение программы**
+
+```csharp
+int num = inputSizeArray("Введите размер массива: ", "Ошибка ввода");
+string[] array1 = FillArray(num);
+int sizeArr = sizeArray(array1);
+string[] array2 = resultingArray(sizeArr, array1);
+if (sizeArr > 0)
+{
+    Console.WriteLine($"[\"{String.Join("\", \"", array1)}\"] --> [\"{String.Join("\", \"", array2)}\"] ");
+}
+else
+{
+    Console.WriteLine($"[\"{String.Join("\", \"", array1)}\"] --> [\"Нет подходящих элементов!\"] ");
+}
+```
+
+[Сылка на файл с программой](https://github.com/kaspr88/Block-results/blob/main/FP1ST/Program.cs)
