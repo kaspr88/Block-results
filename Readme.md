@@ -18,7 +18,7 @@
 
 - Схема алгоритма выполнения задачи.
 
-  ![Схема алгоритма выполнения](../Final%20project%201st/FPScheme.png)
+  ![Схема алгоритма выполнения](https://github.com/kaspr88/Block-results/blob/main/FPScheme.png)
 
 ## Описание методов для выполнения программы.
 
